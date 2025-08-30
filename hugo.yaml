@@ -2,3 +2,64 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Arjun Narain
 theme: ["PaperMod"]
+
+params:
+  profileMode:
+    enabled: true
+    title: "Arjun Narain"
+    subtitle: "Welcome to my digital space"
+    imageUrl: "https://via.placeholder.com/400x400/6366f1/white?text=AN"
+    imageTitle: "Profile Picture"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: About
+        url: "/about"
+      - name: Posts
+        url: "/posts"
+      - name: Projects
+        url: "/projects"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: linkedin
+      url: "https://linkedin.com/"
+    - name: email
+      url: "mailto:your@email.com"
+
+  cover:
+    responsiveImages: true
+    linkFullImages: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "Hello there 👋"
+    Content: "Welcome to my personal website. I write about technology, programming, and life."
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40

@@ -2,10 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Arjun Narain</title>
-    <link>http://localhost:56094/</link>
+    <link>http://localhost:56607/</link>
     <description>Recent content on Arjun Narain</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:56094/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:56607/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My New Hugo Site!</title>
+      <link>http://localhost:56607/posts/welcome/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:56607/posts/welcome/</guid>
+      <description>&lt;h2 id=&#34;a-fresh-start-&#34;&gt;A Fresh Start 🌟&lt;/h2&gt;
+&lt;p&gt;Welcome to my newly redesigned website! I&amp;rsquo;ve just migrated to Hugo with the PaperMod theme, and I&amp;rsquo;m excited to share this journey with you.&lt;/p&gt;
+&lt;h3 id=&#34;why-hugo&#34;&gt;Why Hugo?&lt;/h3&gt;
+&lt;p&gt;Hugo has several compelling advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡ &lt;strong&gt;Lightning Fast&lt;/strong&gt;: Sites build in milliseconds&lt;/li&gt;
+&lt;li&gt;📝 &lt;strong&gt;Markdown-First&lt;/strong&gt;: Write content in simple, clean Markdown&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Highly Customizable&lt;/strong&gt;: Themes and layouts are incredibly flexible&lt;/li&gt;
+&lt;li&gt;🚀 &lt;strong&gt;Easy Deployment&lt;/strong&gt;: Deploy anywhere with static hosting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whats-new-here&#34;&gt;What&amp;rsquo;s New Here?&lt;/h3&gt;
+&lt;p&gt;This site features several visual and functional improvements:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:56607/about/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:56607/about/</guid>
+      <description>&lt;h2 id=&#34;hello-im-arjun-narain-&#34;&gt;Hello! I&amp;rsquo;m Arjun Narain 👋&lt;/h2&gt;
+&lt;p&gt;Welcome to my personal website! I&amp;rsquo;m passionate about technology, software development, and continuous learning.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-do&#34;&gt;What I Do&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;💻 &lt;strong&gt;Software Development&lt;/strong&gt;: Building innovative solutions with modern technologies&lt;/li&gt;
+&lt;li&gt;🔍 &lt;strong&gt;Research&lt;/strong&gt;: Exploring new trends in tech and development practices&lt;/li&gt;
+&lt;li&gt;✍️ &lt;strong&gt;Writing&lt;/strong&gt;: Sharing knowledge through blog posts and documentation&lt;/li&gt;
+&lt;li&gt;🤝 &lt;strong&gt;Community&lt;/strong&gt;: Contributing to open source projects and helping others learn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;my-journey&#34;&gt;My Journey&lt;/h3&gt;
+&lt;p&gt;I believe in the power of technology to solve real-world problems and make life better for everyone. This website is where I share my thoughts, experiences, and learnings from my journey in the tech world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:56607/projects/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:56607/projects/</guid>
+      <description>&lt;h2 id=&#34;featured-projects-&#34;&gt;Featured Projects 🚀&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s a collection of projects I&amp;rsquo;ve been working on. Each represents a unique challenge and learning opportunity.&lt;/p&gt;
+&lt;h3 id=&#34;web-applications&#34;&gt;Web Applications&lt;/h3&gt;
+&lt;h4 id=&#34;-personal-portfolio&#34;&gt;🌐 Personal Portfolio&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: Hugo, PaperMod, CSS3, JavaScript&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: This very website! Built with modern web standards and optimized for performance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Dark mode, responsive design, fast search, SEO optimized&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;-data-visualization-dashboard&#34;&gt;📊 Data Visualization Dashboard&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: React, D3.js, Node.js, PostgreSQL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt;: Interactive dashboard for data analysis and visualization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Real-time updates, custom charts, data export&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;open-source-contributions&#34;&gt;Open Source Contributions&lt;/h3&gt;
+&lt;h4 id=&#34;-community-projects&#34;&gt;🤝 Community Projects&lt;/h4&gt;
+&lt;p&gt;I actively contribute to open source projects, focusing on:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

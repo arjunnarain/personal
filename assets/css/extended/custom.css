@@ -1,0 +1,253 @@
+/* Modern Visual Enhancements for PaperMod */
+
+/* Enhanced Color Palette */
+:root {
+    --accent-color: #6366f1;
+    --accent-hover: #4f46e5;
+    --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    --gradient-secondary: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Enhanced Profile Image */
+.profile img {
+    transition: var(--transition);
+    border: 3px solid var(--accent-color);
+    box-shadow: var(--shadow-lg);
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* Modern Button Styles */
+.profile .buttons a,
+.pagination a {
+    background: var(--gradient-primary);
+    border: none;
+    transition: var(--transition);
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    box-shadow: var(--shadow-sm);
+}
+
+.profile .buttons a:hover,
+.pagination a:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    background: var(--gradient-primary);
+    filter: brightness(1.1);
+}
+
+/* Enhanced Post Entries */
+.post-entry {
+    transition: var(--transition);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+.post-entry:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-color);
+}
+
+/* Improved Typography */
+.post-title {
+    background: var(--gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+/* Enhanced Header */
+.header {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark .header {
+    background: rgba(29, 30, 32, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Animated Social Icons */
+.social-icons a {
+    transition: var(--transition);
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.social-icons a:hover {
+    background: var(--accent-color);
+    color: white;
+    transform: translateY(-2px) scale(1.1);
+    box-shadow: var(--shadow-md);
+}
+
+/* Enhanced Code Blocks */
+.highlight {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Enhanced Search Box */
+#searchbox input {
+    border-radius: 8px;
+    border: 2px solid var(--border);
+    transition: var(--transition);
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+#searchbox input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    outline: none;
+}
+
+/* Modern Tags */
+.terms-tags a,
+.post-tags a {
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    border-radius: 20px;
+    transition: var(--transition);
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.terms-tags a:hover,
+.post-tags a:hover {
+    background: var(--gradient-primary);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+
+.dark .terms-tags a,
+.dark .post-tags a {
+    background: linear-gradient(135deg, #374151 0%, #4b5563 100%);
+}
+
+/* Enhanced Table of Contents */
+.toc {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--theme);
+    box-shadow: var(--shadow-sm);
+}
+
+.toc a {
+    transition: var(--transition);
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 2px 0;
+    display: block;
+}
+
+.toc a:hover {
+    background: var(--accent-color);
+    color: white;
+    padding-left: 12px;
+}
+
+/* Improved Breadcrumbs */
+.breadcrumbs a {
+    transition: var(--transition);
+    color: var(--secondary);
+}
+
+.breadcrumbs a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+/* Enhanced Share Buttons */
+.share-buttons a {
+    transition: var(--transition);
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+}
+
+.share-buttons a:hover {
+    background: var(--accent-color);
+    color: white;
+    transform: translateY(-1px);
+    border-color: var(--accent-color);
+}
+
+/* Loading Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.post-entry,
+.profile,
+.main article {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Dark Mode Enhancements */
+.dark {
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .profile .buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .profile .buttons a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Enhanced Focus States for Accessibility */
+a:focus,
+button:focus,
+input:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Subtle Animation for Theme Toggle */
+.theme-toggle {
+    transition: var(--transition);
+}
+
+.theme-toggle:hover {
+    transform: rotate(180deg);
+}

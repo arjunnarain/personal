@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web Development on Arjun Narain</title>
+    <link>http://localhost:56607/tags/web-development/</link>
+    <description>Recent content in Web Development on Arjun Narain</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:56607/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My New Hugo Site!</title>
+      <link>http://localhost:56607/posts/welcome/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:56607/posts/welcome/</guid>
+      <description>&lt;h2 id=&#34;a-fresh-start-&#34;&gt;A Fresh Start 🌟&lt;/h2&gt;
+&lt;p&gt;Welcome to my newly redesigned website! I&amp;rsquo;ve just migrated to Hugo with the PaperMod theme, and I&amp;rsquo;m excited to share this journey with you.&lt;/p&gt;
+&lt;h3 id=&#34;why-hugo&#34;&gt;Why Hugo?&lt;/h3&gt;
+&lt;p&gt;Hugo has several compelling advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡ &lt;strong&gt;Lightning Fast&lt;/strong&gt;: Sites build in milliseconds&lt;/li&gt;
+&lt;li&gt;📝 &lt;strong&gt;Markdown-First&lt;/strong&gt;: Write content in simple, clean Markdown&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Highly Customizable&lt;/strong&gt;: Themes and layouts are incredibly flexible&lt;/li&gt;
+&lt;li&gt;🚀 &lt;strong&gt;Easy Deployment&lt;/strong&gt;: Deploy anywhere with static hosting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;whats-new-here&#34;&gt;What&amp;rsquo;s New Here?&lt;/h3&gt;
+&lt;p&gt;This site features several visual and functional improvements:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:56094/</loc>
+    <loc>http://localhost:56607/posts/welcome/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56094/categories/</loc>
+    <loc>http://localhost:56607/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:56094/tags/</loc>
+    <loc>http://localhost:56607/tags/blogging/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/categories/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/categories/general/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/tags/hugo/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/posts/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/tags/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/tags/web-development/</loc>
+    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/about/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56607/projects/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url>
 </urlset>
