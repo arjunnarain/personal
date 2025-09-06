@@ -1,0 +1,53 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.149.0"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+
+[context.deploy-preview.environment]
+  HUGO_ENV = "production"
+
+[context.branch-deploy.environment]
+  HUGO_ENV = "production"
+
+# Headers for better security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self';"
+
+# Cache static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Redirect rules for clean URLs (optional)
+[[redirects]]
+  from = "/index.xml"
+  to = "/feed.xml"
+  status = 301
+
+# Handle 404 errors
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
