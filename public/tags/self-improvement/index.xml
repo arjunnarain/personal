@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Self-Improvement on Arjun Narain</title>
-    <link>http://localhost:55112/tags/self-improvement/</link>
+    <link>http://localhost:57262/tags/self-improvement/</link>
     <description>Recent content in Self-Improvement on Arjun Narain</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55112/tags/self-improvement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57262/tags/self-improvement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atomic Habits</title>
-      <link>http://localhost:55112/bookshelf/atomic-habits/</link>
+      <link>http://localhost:57262/bookshelf/atomic-habits/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55112/bookshelf/atomic-habits/</guid>
+      <guid>http://localhost:57262/bookshelf/atomic-habits/</guid>
       <description>A practical guide to building good habits and breaking bad ones through small, incremental changes.</description>
     </item>
   </channel>
