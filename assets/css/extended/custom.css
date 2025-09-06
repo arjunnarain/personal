@@ -360,6 +360,123 @@
     }
 }
 
+/* Content Card Enhancements */
+.content-card {
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid transparent;
+    background: var(--entry);
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, transparent 0%, rgba(0, 102, 204, 0.1) 50%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.content-card::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, 
+        transparent, 
+        rgba(0, 102, 204, 0.15) 25%, 
+        rgba(0, 102, 204, 0.3) 50%, 
+        rgba(0, 102, 204, 0.15) 75%, 
+        transparent
+    );
+    background-size: 300% 300%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.content-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.content-card:hover::before {
+    opacity: 1;
+}
+
+.content-card:hover::after {
+    opacity: 1;
+    animation: gridGlow 1.5s ease-out;
+}
+
+@keyframes gridGlow {
+    0% {
+        background-position: 0% 50%;
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.8;
+    }
+    70% {
+        opacity: 0.6;
+    }
+    100% {
+        background-position: 100% 50%;
+        opacity: 0;
+    }
+}
+
+/* Fix entry-link to make entire card clickable */
+.content-card .entry-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    color: transparent;
+    text-decoration: none;
+}
+
+/* Ensure content is still readable and interactive elements work */
+.content-card .card-header,
+.content-card .card-meta,
+.content-card .card-description,
+.content-card .card-tags,
+.content-card .card-status,
+.content-card .garden-connections {
+    position: relative;
+    z-index: 5;
+    pointer-events: none;
+}
+
+/* Dark mode adjustments */
+.dark .content-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.dark .content-card::after {
+    background: linear-gradient(45deg, 
+        transparent, 
+        rgba(0, 102, 204, 0.1) 25%, 
+        rgba(0, 102, 204, 0.2) 50%, 
+        rgba(0, 102, 204, 0.1) 75%, 
+        transparent
+    );
+}
+
 /* Garden stages section styling */
 .garden-stage {
     color: var(--content);

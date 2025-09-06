@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Unsupervised-Learning on Arjun Narain</title>
-    <link>http://localhost:57262/tags/unsupervised-learning/</link>
+    <link>http://localhost:62641/tags/unsupervised-learning/</link>
     <description>Recent content in Unsupervised-Learning on Arjun Narain</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57262/tags/unsupervised-learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62641/tags/unsupervised-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Language Models are Unsupervised Multitask Learners</title>
-      <link>http://localhost:57262/papershelf/gpt-language-models/</link>
+      <link>http://localhost:62641/papershelf/gpt-language-models/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/papershelf/gpt-language-models/</guid>
+      <guid>http://localhost:62641/papershelf/gpt-language-models/</guid>
       <description>GPT-2 demonstrates that language models can perform multiple tasks without explicit supervision when trained at sufficient scale.</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Research-Papers on Arjun Narain</title>
-    <link>http://localhost:57262/categories/research-papers/</link>
+    <link>http://localhost:62641/categories/research-papers/</link>
     <description>Recent content in Research-Papers on Arjun Narain</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57262/categories/research-papers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62641/categories/research-papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Attention Is All You Need</title>
-      <link>http://localhost:57262/papershelf/attention-is-all-you-need/</link>
+      <link>http://localhost:62641/papershelf/attention-is-all-you-need/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/papershelf/attention-is-all-you-need/</guid>
+      <guid>http://localhost:62641/papershelf/attention-is-all-you-need/</guid>
       <description>The seminal paper that introduced the Transformer architecture, revolutionizing natural language processing by relying entirely on attention mechanisms.</description>
     </item>
     <item>
       <title>BERT: Pre-training of Deep Bidirectional Transformers</title>
-      <link>http://localhost:57262/papershelf/bert-pretraining/</link>
+      <link>http://localhost:62641/papershelf/bert-pretraining/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/papershelf/bert-pretraining/</guid>
+      <guid>http://localhost:62641/papershelf/bert-pretraining/</guid>
       <description>BERT introduces bidirectional training for language models, achieving state-of-the-art results across multiple NLP tasks.</description>
     </item>
     <item>
       <title>Language Models are Unsupervised Multitask Learners</title>
-      <link>http://localhost:57262/papershelf/gpt-language-models/</link>
+      <link>http://localhost:62641/papershelf/gpt-language-models/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/papershelf/gpt-language-models/</guid>
+      <guid>http://localhost:62641/papershelf/gpt-language-models/</guid>
       <description>GPT-2 demonstrates that language models can perform multiple tasks without explicit supervision when trained at sufficient scale.</description>
     </item>
   </channel>
