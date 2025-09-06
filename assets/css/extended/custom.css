@@ -1,0 +1,315 @@
+/* Custom CSS inspired by Arpit Bhayani's design */
+
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #666;
+    --accent-color: #0066cc;
+    --background: #ffffff;
+    --surface: #f8f9fa;
+    --border: #e1e5e9;
+    --text-primary: #1a1a1a;
+    --text-secondary: #666;
+    --header-height: 60px;
+}
+
+/* Clean, minimal layout */
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Profile section */
+.profile-section {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 10px 0;
+}
+
+.profile-tagline {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.social-stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.social-stat {
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-secondary);
+    transition: color 0.2s ease;
+}
+
+.social-stat:hover {
+    color: var(--accent-color);
+}
+
+.social-number {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.social-label {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Content sections */
+.content-section {
+    margin-bottom: 60px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--border);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.section-count {
+    background: var(--surface);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Card design for posts/papers */
+.content-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.content-card {
+    padding: 24px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--background);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-card:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.card-status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+.status-reading {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.status-read-notes {
+    background: #e8f5e8;
+    color: #2e7d32;
+}
+
+.status-read {
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+.status-want-to-read {
+    background: #fff3e0;
+    color: #f57c00;
+}
+
+.card-meta {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.card-description {
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.card-tag {
+    background: var(--surface);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+/* Status filter tabs */
+.status-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.status-filter {
+    padding: 8px 16px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--background);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.status-filter:hover,
+.status-filter.active {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
+/* Digital Garden specific styles */
+.garden-node {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.garden-node::before {
+    content: "🌱";
+    position: absolute;
+    left: -25px;
+    top: 2px;
+}
+
+.garden-connections {
+    margin-top: 20px;
+    padding: 15px;
+    background: var(--surface);
+    border-radius: 6px;
+}
+
+.garden-connections h4 {
+    margin: 0 0 10px 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.connection-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.connection-link {
+    padding: 4px 8px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    transition: all 0.2s ease;
+}
+
+.connection-link:hover {
+    background: var(--accent-color);
+    color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main {
+        padding: 0 15px;
+    }
+    
+    .profile-name {
+        font-size: 2rem;
+    }
+    
+    .social-stats {
+        gap: 20px;
+    }
+    
+    .section-header {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    
+    .card-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .card-status {
+        margin-left: 0;
+        align-self: flex-start;
+    }
+}

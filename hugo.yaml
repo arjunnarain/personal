@@ -2,3 +2,55 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Arjun Narain
 theme: ["PaperMod"]
+
+params:
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableThemeToggle: false
+  mainSections: ["posts"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  
+  homeInfoParams:
+    Title: "Welcome to Arjun's Digital Space"
+    Content: "Exploring technology, research, and ideas"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 15
+    - identifier: papershelf
+      name: Paper Shelf
+      url: /papershelf/
+      weight: 20
+    - identifier: bookshelf
+      name: Bookshelf
+      url: /bookshelf/
+      weight: 25
+    - identifier: musings
+      name: Digital Musings
+      url: /musings/
+      weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 35
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40

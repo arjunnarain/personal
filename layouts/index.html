@@ -1,0 +1,99 @@
+{{- define "main" }}
+
+<div class="profile-section">
+    <img src="/images/profile.jpg" alt="Arjun Narain" class="profile-image" />
+    <h1 class="profile-name">Arjun Narain</h1>
+    <p class="profile-tagline">Software Engineer • Researcher • Tech Enthusiast</p>
+    
+    <div class="social-stats">
+        <a href="#" class="social-stat">
+            <span class="social-number">2.5K</span>
+            <span class="social-label">Followers</span>
+        </a>
+        <a href="#" class="social-stat">
+            <span class="social-number">1.2K</span>
+            <span class="social-label">Subscribers</span>
+        </a>
+        <a href="#" class="social-stat">
+            <span class="social-number">150</span>
+            <span class="social-label">Papers Read</span>
+        </a>
+    </div>
+</div>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- $paginator := .Paginate $pages }}
+
+{{- if and site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{- if $paginator.Pages }}
+<div class="content-section">
+    <div class="section-header">
+        <h2 class="section-title">Latest Posts</h2>
+        <span class="section-count">{{ len $paginator.Pages }} posts</span>
+    </div>
+    
+    <div class="content-grid">
+        {{- range $index, $page := $paginator.Pages }}
+        <article class="content-card">
+            <div class="card-header">
+                <h3 class="card-title">{{ .Title }}</h3>
+                {{- if .Draft }}
+                <span class="card-status status-draft">Draft</span>
+                {{- end }}
+            </div>
+            
+            {{- if .Date }}
+            <div class="card-meta">
+                <span>{{ .Date.Format "January 2, 2006" }}</span>
+            </div>
+            {{- end }}
+            
+            {{- if (ne (.Param "hideSummary") true) }}
+            <div class="card-description">
+                <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+            </div>
+            {{- end }}
+            
+            {{- if .Params.tags }}
+            <div class="card-tags">
+                {{- range .Params.tags }}
+                <span class="card-tag">{{ . }}</span>
+                {{- end }}
+            </div>
+            {{- end }}
+            
+            <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+        </article>
+        {{- end }}
+    </div>
+</div>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      «&nbsp;{{ i18n "prev_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- i18n "next_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+      {{- end }}&nbsp;»
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}
