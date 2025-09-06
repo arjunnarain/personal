@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Arjun Narain</title>
-    <link>http://localhost:57262/</link>
+    <link>http://localhost:62641/</link>
     <description>Recent content on Arjun Narain</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57262/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62641/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atomic Habits</title>
-      <link>http://localhost:57262/bookshelf/atomic-habits/</link>
+      <link>http://localhost:62641/bookshelf/atomic-habits/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/bookshelf/atomic-habits/</guid>
+      <guid>http://localhost:62641/bookshelf/atomic-habits/</guid>
       <description>A practical guide to building good habits and breaking bad ones through small, incremental changes.</description>
     </item>
     <item>
       <title>Attention Is All You Need</title>
-      <link>http://localhost:57262/papershelf/attention-is-all-you-need/</link>
+      <link>http://localhost:62641/papershelf/attention-is-all-you-need/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/papershelf/attention-is-all-you-need/</guid>
+      <guid>http://localhost:62641/papershelf/attention-is-all-you-need/</guid>
       <description>The seminal paper that introduced the Transformer architecture, revolutionizing natural language processing by relying entirely on attention mechanisms.</description>
     </item>
     <item>
       <title>BERT: Pre-training of Deep Bidirectional Transformers</title>
-      <link>http://localhost:57262/papershelf/bert-pretraining/</link>
+      <link>http://localhost:62641/papershelf/bert-pretraining/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/papershelf/bert-pretraining/</guid>
+      <guid>http://localhost:62641/papershelf/bert-pretraining/</guid>
       <description>BERT introduces bidirectional training for language models, achieving state-of-the-art results across multiple NLP tasks.</description>
     </item>
     <item>
       <title>Designing Data-Intensive Applications</title>
-      <link>http://localhost:57262/bookshelf/designing-data-intensive-applications/</link>
+      <link>http://localhost:62641/bookshelf/designing-data-intensive-applications/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/bookshelf/designing-data-intensive-applications/</guid>
+      <guid>http://localhost:62641/bookshelf/designing-data-intensive-applications/</guid>
       <description>The definitive guide to understanding the architecture of modern data systems, covering reliability, scalability, and maintainability.</description>
     </item>
     <item>
       <title>Emergence in Software Systems</title>
-      <link>http://localhost:57262/musings/emergence-in-software-systems/</link>
+      <link>http://localhost:62641/musings/emergence-in-software-systems/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/musings/emergence-in-software-systems/</guid>
+      <guid>http://localhost:62641/musings/emergence-in-software-systems/</guid>
       <description>Exploring how complex behaviors emerge from simple rules in software systems</description>
     </item>
     <item>
       <title>Language Models are Unsupervised Multitask Learners</title>
-      <link>http://localhost:57262/papershelf/gpt-language-models/</link>
+      <link>http://localhost:62641/papershelf/gpt-language-models/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/papershelf/gpt-language-models/</guid>
+      <guid>http://localhost:62641/papershelf/gpt-language-models/</guid>
       <description>GPT-2 demonstrates that language models can perform multiple tasks without explicit supervision when trained at sufficient scale.</description>
     </item>
     <item>
       <title>The Evolution of Developer Tools</title>
-      <link>http://localhost:57262/musings/developer-tools-evolution/</link>
+      <link>http://localhost:62641/musings/developer-tools-evolution/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/musings/developer-tools-evolution/</guid>
+      <guid>http://localhost:62641/musings/developer-tools-evolution/</guid>
       <description>Rough thoughts on how developer tools have evolved and where they might be heading</description>
     </item>
     <item>
       <title>Welcome to My Digital Space</title>
-      <link>http://localhost:57262/posts/my-first-blog-post/</link>
+      <link>http://localhost:62641/posts/my-first-blog-post/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57262/posts/my-first-blog-post/</guid>
+      <guid>http://localhost:62641/posts/my-first-blog-post/</guid>
       <description>An introduction to my blog and what you can expect to find here.</description>
     </item>
   </channel>
