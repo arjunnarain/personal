@@ -4,7 +4,7 @@ date: 2025-08-31
 draft: false
 tags: ["systems-thinking", "complexity", "software-architecture", "emergence"]
 categories: ["musings"]
-growth_stage: "budding"
+growth_stage: ["budding"]
 confidence: "medium"
 connections: ["distributed-systems", "complexity-theory", "system-design"]
 summary: "Exploring how complex behaviors emerge from simple rules in software systems"

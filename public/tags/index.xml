@@ -2,199 +2,199 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Arjun Narain</title>
-    <link>http://localhost:61193/tags/</link>
+    <link>http://localhost:55112/tags/</link>
     <description>Recent content in Tags on Arjun Narain</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61193/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55112/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architecture</title>
-      <link>http://localhost:61193/tags/architecture/</link>
+      <link>http://localhost:55112/tags/architecture/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/architecture/</guid>
+      <guid>http://localhost:55112/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Attention</title>
-      <link>http://localhost:61193/tags/attention/</link>
+      <link>http://localhost:55112/tags/attention/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/attention/</guid>
+      <guid>http://localhost:55112/tags/attention/</guid>
       <description></description>
     </item>
     <item>
       <title>Bert</title>
-      <link>http://localhost:61193/tags/bert/</link>
+      <link>http://localhost:55112/tags/bert/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/bert/</guid>
+      <guid>http://localhost:55112/tags/bert/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:61193/tags/blog/</link>
+      <link>http://localhost:55112/tags/blog/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/blog/</guid>
+      <guid>http://localhost:55112/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Complexity</title>
-      <link>http://localhost:61193/tags/complexity/</link>
+      <link>http://localhost:55112/tags/complexity/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/complexity/</guid>
+      <guid>http://localhost:55112/tags/complexity/</guid>
       <description></description>
     </item>
     <item>
       <title>Databases</title>
-      <link>http://localhost:61193/tags/databases/</link>
+      <link>http://localhost:55112/tags/databases/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/databases/</guid>
+      <guid>http://localhost:55112/tags/databases/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep-Learning</title>
-      <link>http://localhost:61193/tags/deep-learning/</link>
+      <link>http://localhost:55112/tags/deep-learning/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/deep-learning/</guid>
+      <guid>http://localhost:55112/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer-Experience</title>
-      <link>http://localhost:61193/tags/developer-experience/</link>
+      <link>http://localhost:55112/tags/developer-experience/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/developer-experience/</guid>
+      <guid>http://localhost:55112/tags/developer-experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Distributed-Systems</title>
-      <link>http://localhost:61193/tags/distributed-systems/</link>
+      <link>http://localhost:55112/tags/distributed-systems/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/distributed-systems/</guid>
+      <guid>http://localhost:55112/tags/distributed-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Emergence</title>
-      <link>http://localhost:61193/tags/emergence/</link>
+      <link>http://localhost:55112/tags/emergence/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/emergence/</guid>
+      <guid>http://localhost:55112/tags/emergence/</guid>
       <description></description>
     </item>
     <item>
       <title>Gpt</title>
-      <link>http://localhost:61193/tags/gpt/</link>
+      <link>http://localhost:55112/tags/gpt/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/gpt/</guid>
+      <guid>http://localhost:55112/tags/gpt/</guid>
       <description></description>
     </item>
     <item>
       <title>Habits</title>
-      <link>http://localhost:61193/tags/habits/</link>
+      <link>http://localhost:55112/tags/habits/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/habits/</guid>
+      <guid>http://localhost:55112/tags/habits/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>http://localhost:61193/tags/introduction/</link>
+      <link>http://localhost:55112/tags/introduction/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/introduction/</guid>
+      <guid>http://localhost:55112/tags/introduction/</guid>
       <description></description>
     </item>
     <item>
       <title>Language-Models</title>
-      <link>http://localhost:61193/tags/language-models/</link>
+      <link>http://localhost:55112/tags/language-models/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/language-models/</guid>
+      <guid>http://localhost:55112/tags/language-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Nlp</title>
-      <link>http://localhost:61193/tags/nlp/</link>
+      <link>http://localhost:55112/tags/nlp/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/nlp/</guid>
+      <guid>http://localhost:55112/tags/nlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Pretraining</title>
-      <link>http://localhost:61193/tags/pretraining/</link>
+      <link>http://localhost:55112/tags/pretraining/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/pretraining/</guid>
+      <guid>http://localhost:55112/tags/pretraining/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>http://localhost:61193/tags/productivity/</link>
+      <link>http://localhost:55112/tags/productivity/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/productivity/</guid>
+      <guid>http://localhost:55112/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Psychology</title>
-      <link>http://localhost:61193/tags/psychology/</link>
+      <link>http://localhost:55112/tags/psychology/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/psychology/</guid>
+      <guid>http://localhost:55112/tags/psychology/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-Improvement</title>
-      <link>http://localhost:61193/tags/self-improvement/</link>
+      <link>http://localhost:55112/tags/self-improvement/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/self-improvement/</guid>
+      <guid>http://localhost:55112/tags/self-improvement/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-Architecture</title>
-      <link>http://localhost:61193/tags/software-architecture/</link>
+      <link>http://localhost:55112/tags/software-architecture/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/software-architecture/</guid>
+      <guid>http://localhost:55112/tags/software-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-History</title>
-      <link>http://localhost:61193/tags/software-history/</link>
+      <link>http://localhost:55112/tags/software-history/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/software-history/</guid>
+      <guid>http://localhost:55112/tags/software-history/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems</title>
-      <link>http://localhost:61193/tags/systems/</link>
+      <link>http://localhost:55112/tags/systems/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/systems/</guid>
+      <guid>http://localhost:55112/tags/systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems-Thinking</title>
-      <link>http://localhost:61193/tags/systems-thinking/</link>
+      <link>http://localhost:55112/tags/systems-thinking/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/systems-thinking/</guid>
+      <guid>http://localhost:55112/tags/systems-thinking/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>http://localhost:61193/tags/tools/</link>
+      <link>http://localhost:55112/tags/tools/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/tools/</guid>
+      <guid>http://localhost:55112/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Transformer</title>
-      <link>http://localhost:61193/tags/transformer/</link>
+      <link>http://localhost:55112/tags/transformer/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/transformer/</guid>
+      <guid>http://localhost:55112/tags/transformer/</guid>
       <description></description>
     </item>
     <item>
       <title>Unsupervised-Learning</title>
-      <link>http://localhost:61193/tags/unsupervised-learning/</link>
+      <link>http://localhost:55112/tags/unsupervised-learning/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/unsupervised-learning/</guid>
+      <guid>http://localhost:55112/tags/unsupervised-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:61193/tags/welcome/</link>
+      <link>http://localhost:55112/tags/welcome/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61193/tags/welcome/</guid>
+      <guid>http://localhost:55112/tags/welcome/</guid>
       <description></description>
     </item>
   </channel>

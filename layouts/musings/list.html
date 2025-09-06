@@ -1,0 +1,127 @@
+{{- define "main" }}
+
+<div class="content-section">
+    <div class="section-header">
+        <h1 class="section-title">Digital Musings</h1>
+        <span class="section-count">🌱 Growing garden</span>
+    </div>
+    
+    <div class="status-filters">
+        <a href="/musings/" class="status-filter active">All Notes</a>
+        <a href="/growth_stage/seedling/" class="status-filter">🌱 Seedlings</a>
+        <a href="/growth_stage/budding/" class="status-filter">🌿 Budding</a>
+        <a href="/growth_stage/evergreen/" class="status-filter">🌲 Evergreen</a>
+    </div>
+    
+    <p style="color: var(--text-secondary); margin-bottom: 30px;">
+        Welcome to my digital garden - a space for growing ideas, connecting thoughts, and cultivating knowledge. 
+        Unlike traditional blogs, these notes are living documents that evolve over time.
+    </p>
+    
+    <div style="background: var(--surface); padding: 20px; border-radius: 8px; margin-bottom: 30px;">
+        <h3 style="margin: 0 0 15px 0; color: var(--text-primary);">How This Garden Works</h3>
+        <div style="display: grid; gap: 15px;">
+            <div class="garden-stage">
+                <strong>🌱 Seedlings</strong>: Early ideas and rough thoughts, often incomplete
+            </div>
+            <div class="garden-stage">
+                <strong>🌿 Budding</strong>: Ideas that are developing, with some structure and connections
+            </div>
+            <div class="garden-stage">
+                <strong>🌲 Evergreen</strong>: Well-developed thoughts that I'm confident sharing
+            </div>
+        </div>
+    </div>
+</div>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $pages := .RegularPages }}
+{{- $paginator := .Paginate $pages }}
+
+{{- if $paginator.Pages }}
+<div class="content-grid">
+    {{- range $index, $page := $paginator.Pages }}
+    <article class="content-card garden-node">
+        <div class="card-header">
+            <h2 class="card-title">{{ .Title }}</h2>
+            
+            {{- if .Params.growth_stage }}
+            {{- $stage := index .Params.growth_stage 0 }}
+            <span class="card-status status-{{ $stage }}">
+                {{- if eq $stage "seedling" }}🌱 Seedling
+                {{- else if eq $stage "budding" }}🌿 Budding  
+                {{- else if eq $stage "evergreen" }}🌲 Evergreen
+                {{- end }}
+            </span>
+            {{- end }}
+        </div>
+        
+        {{- if .Params.confidence }}
+        <div class="card-meta">
+            <span>Confidence: {{ .Params.confidence }}</span>
+            {{- if .Date }}<span>{{ .Date.Format "Jan 2, 2006" }}</span>{{- end }}
+        </div>
+        {{- end }}
+        
+        {{- if (ne (.Param "hideSummary") true) }}
+        <div class="card-description">
+            <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+        </div>
+        {{- end }}
+        
+        {{- if .Params.connections }}
+        <div class="garden-connections">
+            <h4>Connected Ideas</h4>
+            <div class="connection-links">
+                {{- range .Params.connections }}
+                <span class="connection-link">{{ . }}</span>
+                {{- end }}
+            </div>
+        </div>
+        {{- end }}
+        
+        {{- if .Params.tags }}
+        <div class="card-tags">
+            {{- range .Params.tags }}
+            <span class="card-tag">{{ . }}</span>
+            {{- end }}
+        </div>
+        {{- end }}
+        
+        <a class="entry-link" aria-label="note link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{- end }}
+</div>
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      «&nbsp;{{ i18n "prev_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+      {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- i18n "next_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+      {{- end }}&nbsp;»
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}

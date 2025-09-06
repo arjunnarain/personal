@@ -4,6 +4,7 @@ date: 2025-08-31
 draft: false
 tags: ["transformer", "attention", "nlp", "deep-learning"]
 categories: ["research-papers"]
+reading_status: ["read-notes"]
 author: "Vaswani et al."
 journal: "NeurIPS"
 year: "2017"
@@ -11,7 +12,6 @@ doi: "10.5555/3295222.3295349"
 paper_url: "https://arxiv.org/abs/1706.03762"
 drive_link: "#"
 summary: "The seminal paper that introduced the Transformer architecture, revolutionizing natural language processing by relying entirely on attention mechanisms."
-reading_status: "read-notes"
 ShowToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true

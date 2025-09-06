@@ -80,20 +80,22 @@
     </h2>
     
     {{- if .Params.reading_status }}
-    <span class="card-status status-{{ .Params.reading_status | replace "-" "-" }}">
-      {{- if eq .Params.reading_status "currently-reading" }}Currently Reading
-      {{- else if eq .Params.reading_status "read-notes" }}Read (with notes)
-      {{- else if eq .Params.reading_status "read" }}Read
-      {{- else if eq .Params.reading_status "want-to-read" }}Want to Read
+    {{- $status := index .Params.reading_status 0 }}
+    <span class="card-status status-{{ $status | replace "-" "-" }}">
+      {{- if eq $status "currently-reading" }}Currently Reading
+      {{- else if eq $status "read-notes" }}Read (with notes)
+      {{- else if eq $status "read" }}Read
+      {{- else if eq $status "want-to-read" }}Want to Read
       {{- end }}
     </span>
     {{- end }}
     
     {{- if .Params.growth_stage }}
-    <span class="card-status status-{{ .Params.growth_stage }}">
-      {{- if eq .Params.growth_stage "seedling" }}🌱 Seedling
-      {{- else if eq .Params.growth_stage "budding" }}🌿 Budding  
-      {{- else if eq .Params.growth_stage "evergreen" }}🌲 Evergreen
+    {{- $stage := index .Params.growth_stage 0 }}
+    <span class="card-status status-{{ $stage }}">
+      {{- if eq $stage "seedling" }}🌱 Seedling
+      {{- else if eq $stage "budding" }}🌿 Budding  
+      {{- else if eq $stage "evergreen" }}🌲 Evergreen
       {{- end }}
     </span>
     {{- end }}

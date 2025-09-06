@@ -4,7 +4,7 @@ date: 2025-08-31
 draft: false
 tags: ["developer-experience", "tools", "productivity", "software-history"]
 categories: ["musings"]
-growth_stage: "seedling"
+growth_stage: ["seedling"]
 confidence: "low"
 connections: ["productivity", "software-development", "user-experience"]
 summary: "Rough thoughts on how developer tools have evolved and where they might be heading"

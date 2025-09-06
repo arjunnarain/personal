@@ -3,6 +3,12 @@ languageCode: en-us
 title: Arjun Narain
 theme: ["PaperMod"]
 
+taxonomies:
+  tag: tags
+  category: categories
+  reading_status: reading_status
+  growth_stage: growth_stage
+
 params:
   ShowReadingTime: true
   ShowShareButtons: true
