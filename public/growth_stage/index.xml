@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Growth_stage on Arjun Narain</title>
+    <link>http://localhost:55112/growth_stage/</link>
+    <description>Recent content in Growth_stage on Arjun Narain</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55112/growth_stage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budding</title>
+      <link>http://localhost:55112/growth_stage/budding/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55112/growth_stage/budding/</guid>
+      <description>Ideas that are developing with some structure and connections</description>
+    </item>
+    <item>
+      <title>Evergreen</title>
+      <link>http://localhost:55112/growth_stage/evergreen/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55112/growth_stage/evergreen/</guid>
+      <description>Well-developed thoughts that are confident and mature</description>
+    </item>
+    <item>
+      <title>Seedling</title>
+      <link>http://localhost:55112/growth_stage/seedling/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55112/growth_stage/seedling/</guid>
+      <description>Early ideas and rough thoughts, often incomplete</description>
+    </item>
+  </channel>
+</rss>

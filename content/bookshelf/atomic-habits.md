@@ -4,13 +4,13 @@ date: 2025-08-31
 draft: false
 tags: ["productivity", "habits", "self-improvement", "psychology"]
 categories: ["books"]
+reading_status: ["currently-reading"]
 author: "James Clear"
 publisher: "Avery"
 year: "2018"
 isbn: "978-0735211292"
 pages: "320"
 book_url: "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299"
-reading_status: "currently-reading"
 rating: ""
 summary: "A practical guide to building good habits and breaking bad ones through small, incremental changes."
 ShowToc: true

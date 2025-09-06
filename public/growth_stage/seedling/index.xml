@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Seedling on Arjun Narain</title>
+    <link>http://localhost:55112/growth_stage/seedling/</link>
+    <description>Recent content in Seedling on Arjun Narain</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55112/growth_stage/seedling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Developer Tools</title>
+      <link>http://localhost:55112/musings/developer-tools-evolution/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55112/musings/developer-tools-evolution/</guid>
+      <description>Rough thoughts on how developer tools have evolved and where they might be heading</description>
+    </item>
+  </channel>
+</rss>

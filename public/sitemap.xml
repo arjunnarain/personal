@@ -2,142 +2,169 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:61193/tags/architecture/</loc>
+    <loc>http://localhost:55112/tags/architecture/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/</loc>
+    <loc>http://localhost:55112/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/bookshelf/atomic-habits/</loc>
+    <loc>http://localhost:55112/bookshelf/atomic-habits/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/attention/</loc>
+    <loc>http://localhost:55112/tags/attention/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/papershelf/attention-is-all-you-need/</loc>
+    <loc>http://localhost:55112/papershelf/attention-is-all-you-need/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/bert/</loc>
+    <loc>http://localhost:55112/tags/bert/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/papershelf/bert-pretraining/</loc>
+    <loc>http://localhost:55112/papershelf/bert-pretraining/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/blog/</loc>
+    <loc>http://localhost:55112/tags/blog/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/posts/</loc>
+    <loc>http://localhost:55112/posts/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/categories/books/</loc>
+    <loc>http://localhost:55112/categories/books/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/bookshelf/</loc>
+    <loc>http://localhost:55112/bookshelf/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/categories/</loc>
+    <loc>http://localhost:55112/growth_stage/budding/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/complexity/</loc>
+    <loc>http://localhost:55112/categories/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/databases/</loc>
+    <loc>http://localhost:55112/tags/complexity/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/deep-learning/</loc>
+    <loc>http://localhost:55112/reading_status/currently-reading/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/bookshelf/designing-data-intensive-applications/</loc>
+    <loc>http://localhost:55112/tags/databases/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/developer-experience/</loc>
+    <loc>http://localhost:55112/tags/deep-learning/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/musings/</loc>
+    <loc>http://localhost:55112/bookshelf/designing-data-intensive-applications/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/distributed-systems/</loc>
+    <loc>http://localhost:55112/tags/developer-experience/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/emergence/</loc>
+    <loc>http://localhost:55112/musings/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/musings/emergence-in-software-systems/</loc>
+    <loc>http://localhost:55112/tags/distributed-systems/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/categories/general/</loc>
+    <loc>http://localhost:55112/tags/emergence/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/gpt/</loc>
+    <loc>http://localhost:55112/musings/emergence-in-software-systems/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/habits/</loc>
+    <loc>http://localhost:55112/growth_stage/evergreen/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/introduction/</loc>
+    <loc>http://localhost:55112/categories/general/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/papershelf/gpt-language-models/</loc>
+    <loc>http://localhost:55112/tags/gpt/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/language-models/</loc>
+    <loc>http://localhost:55112/growth_stage/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/categories/musings/</loc>
+    <loc>http://localhost:55112/tags/habits/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/nlp/</loc>
+    <loc>http://localhost:55112/tags/introduction/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/papershelf/</loc>
+    <loc>http://localhost:55112/papershelf/gpt-language-models/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/pretraining/</loc>
+    <loc>http://localhost:55112/tags/language-models/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/productivity/</loc>
+    <loc>http://localhost:55112/categories/musings/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/psychology/</loc>
+    <loc>http://localhost:55112/tags/nlp/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/categories/research-papers/</loc>
+    <loc>http://localhost:55112/papershelf/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/self-improvement/</loc>
+    <loc>http://localhost:55112/tags/pretraining/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/software-architecture/</loc>
+    <loc>http://localhost:55112/tags/productivity/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/software-history/</loc>
+    <loc>http://localhost:55112/tags/psychology/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/systems/</loc>
+    <loc>http://localhost:55112/reading_status/read/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/systems-thinking/</loc>
+    <loc>http://localhost:55112/reading_status/read-notes/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/</loc>
+    <loc>http://localhost:55112/reading_status/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/musings/developer-tools-evolution/</loc>
+    <loc>http://localhost:55112/categories/research-papers/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/tools/</loc>
+    <loc>http://localhost:55112/growth_stage/seedling/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/transformer/</loc>
+    <loc>http://localhost:55112/tags/self-improvement/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/unsupervised-learning/</loc>
+    <loc>http://localhost:55112/tags/software-architecture/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/tags/welcome/</loc>
+    <loc>http://localhost:55112/tags/software-history/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:61193/posts/my-first-blog-post/</loc>
+    <loc>http://localhost:55112/tags/systems/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/tags/systems-thinking/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/tags/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/musings/developer-tools-evolution/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/tags/tools/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/tags/transformer/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/tags/unsupervised-learning/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/reading_status/want-to-read/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/tags/welcome/</loc>
+    <lastmod>2025-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55112/posts/my-first-blog-post/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url>
 </urlset>

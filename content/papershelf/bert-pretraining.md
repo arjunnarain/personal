@@ -4,6 +4,7 @@ date: 2025-08-31
 draft: false
 tags: ["bert", "transformer", "nlp", "pretraining"]
 categories: ["research-papers"]
+reading_status: ["currently-reading"]
 author: "Devlin et al."
 journal: "NAACL"
 year: "2019"
@@ -11,7 +12,6 @@ doi: ""
 paper_url: "https://arxiv.org/abs/1810.04805"
 drive_link: "#"
 summary: "BERT introduces bidirectional training for language models, achieving state-of-the-art results across multiple NLP tasks."
-reading_status: "currently-reading"
 ShowToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true

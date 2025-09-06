@@ -4,13 +4,13 @@ date: 2025-08-31
 draft: false
 tags: ["systems", "databases", "distributed-systems", "architecture"]
 categories: ["books"]
+reading_status: ["read-notes"]
 author: "Martin Kleppmann"
 publisher: "O'Reilly Media"
 year: "2017"
 isbn: "978-1449373320"
 pages: "616"
 book_url: "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373320"
-reading_status: "read-notes"
 rating: "5"
 summary: "The definitive guide to understanding the architecture of modern data systems, covering reliability, scalability, and maintainability."
 ShowToc: true
