@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>General on Arjun Narain</title>
+    <link>http://localhost:61193/categories/general/</link>
+    <description>Recent content in General on Arjun Narain</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:61193/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Digital Space</title>
+      <link>http://localhost:61193/posts/my-first-blog-post/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61193/posts/my-first-blog-post/</guid>
+      <description>An introduction to my blog and what you can expect to find here.</description>
+    </item>
+  </channel>
+</rss>
