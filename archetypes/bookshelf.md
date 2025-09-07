@@ -10,7 +10,7 @@ year: ""
 isbn: ""
 pages: ""
 book_url: ""
-reading_status: ""
+reading_status: ["want-to-read"]
 rating: ""
 summary: ""
 ShowToc: true

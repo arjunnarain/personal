@@ -4,6 +4,7 @@ date: '{{ .Date }}'
 draft: true
 tags: []
 categories: ["research-papers"]
+reading_status: ["want-to-read"]
 author: ""
 journal: ""
 year: ""
