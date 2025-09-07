@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reading_status on Arjun Narain</title>
-    <link>http://localhost:62641/reading_status/</link>
+    <link>http://localhost:58579/reading_status/</link>
     <description>Recent content in Reading_status on Arjun Narain</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62641/reading_status/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58579/reading_status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Currently Reading</title>
-      <link>http://localhost:62641/reading_status/currently-reading/</link>
+      <link>http://localhost:58579/reading_status/currently-reading/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62641/reading_status/currently-reading/</guid>
+      <guid>http://localhost:58579/reading_status/currently-reading/</guid>
       <description>Items currently being read</description>
     </item>
     <item>
       <title>Read</title>
-      <link>http://localhost:62641/reading_status/read/</link>
+      <link>http://localhost:58579/reading_status/read/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62641/reading_status/read/</guid>
+      <guid>http://localhost:58579/reading_status/read/</guid>
       <description>Items that have been read without detailed notes</description>
     </item>
     <item>
       <title>Read Notes</title>
-      <link>http://localhost:62641/reading_status/read-notes/</link>
+      <link>http://localhost:58579/reading_status/read-notes/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62641/reading_status/read-notes/</guid>
+      <guid>http://localhost:58579/reading_status/read-notes/</guid>
       <description>Items that have been read with detailed notes and reviews</description>
     </item>
     <item>
       <title>Want to Read</title>
-      <link>http://localhost:62641/reading_status/want-to-read/</link>
+      <link>http://localhost:58579/reading_status/want-to-read/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62641/reading_status/want-to-read/</guid>
+      <guid>http://localhost:58579/reading_status/want-to-read/</guid>
       <description>Items on the reading list for future study</description>
     </item>
   </channel>

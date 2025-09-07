@@ -4,7 +4,7 @@ date: '{{ .Date }}'
 draft: true
 tags: []
 categories: ["musings"]
-growth_stage: "seedling"
+growth_stage: ["seedling"]
 confidence: "low"
 connections: []
 summary: ""
